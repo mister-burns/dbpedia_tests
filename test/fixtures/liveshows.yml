@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  label: MyString
+  number_of_episodes_owl: 1
+  number_of_seasons_owl: 1
+  number_of_episodes_prop: 1
+  number_of_seasons_prop: 1
+  language: MyString
+  country: MyString
+  release_date: 2013-11-09 19:04:13
+  first_aired: 2013-11-09 19:04:13
+  info_box: MyText
+
+two:
+  label: MyString
+  number_of_episodes_owl: 1
+  number_of_seasons_owl: 1
+  number_of_episodes_prop: 1
+  number_of_seasons_prop: 1
+  language: MyString
+  country: MyString
+  release_date: 2013-11-09 19:04:13
+  first_aired: 2013-11-09 19:04:13
+  info_box: MyText

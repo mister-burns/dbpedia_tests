@@ -1,0 +1,21 @@
+<h1>TVRatr</h1>
+<p1>Number of labels in database: <%= @shows.count %></p1>
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Page ID</th>
+    <th>Page Title</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @shows.order('page_title ASC').each do |show| %>
+      <tr>
+        <td><%= show.id %></td>
+        <td><%= show.page_id %></td>
+        <td><%= show.page_title %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<h1>TVRatr</h1><br>
+<p1>Number of labels in database: <%= @json.count %></p1>
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Label</th>
+    <th>JSON Data</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @json.limit(100).order('label ASC').each do |json| %>
+      <tr>
+        <td><%= json.id %></td>
+        <td><%= json.label %></td>
+        <td><%= JSON.parse(json.jsondata) %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

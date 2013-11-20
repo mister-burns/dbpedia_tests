@@ -1,0 +1,29 @@
+<h1>TVRatr</h1><br>
+<p>Show count in database: <%= @shows.count %></p>
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Show Name</th>
+    <th>Number of Episodes</th>
+    <th>Number of Seasons</th>
+    <th>First Aired</th>
+    <th>Language</th>
+    <th>Country</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @shows.limit(2000).order('first_aired DESC').each do |show| %>
+      <tr>
+        <td><%= show.id %></td>
+        <td><%= show.label %></td>
+        <td><%= show.number_of_episodes_prop %></td>
+        <td><%= show.number_of_seasons_prop %></td>
+        <td><%= show.first_aired %></td>
+        <td><%= show.language %></td>
+        <td><%= show.country %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

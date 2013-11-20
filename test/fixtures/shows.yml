@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  wikipage_id: 1
+  show_name: MyString
+  number_of_episodes: 1
+  number_of_seasons: 1
+  first_aired: 
+  last_aired: 2013-11-17 22:26:39
+
+two:
+  wikipage_id: 1
+  show_name: MyString
+  number_of_episodes: 1
+  number_of_seasons: 1
+  first_aired: 
+  last_aired: 2013-11-17 22:26:39

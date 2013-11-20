@@ -1,0 +1,19 @@
+<h1>TVRatr</h1><br>
+<p1>Number of labels in database: <%= @label.count %></p1>
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Show Name</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @label.order('label ASC').each do |label| %>
+      <tr>
+        <td><%= label.id %></td>
+        <td><%= label.label %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>

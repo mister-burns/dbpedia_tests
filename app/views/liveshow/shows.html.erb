@@ -1,0 +1,23 @@
+<h1>TVRatr</h1>
+<p1>Number of labels in database: <%= @shows.count %></p1>
+<table>
+  <thead>
+  <tr>
+    <th>Show Name</th>
+    <th>Wikipedia Page ID</th>
+    <th>Number of Seasons</th>
+    <th>Number of Episodes</th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @shows.order('show_name ASC').each do |show| %>
+      <tr>
+        <td><%= show.show_name %></td>
+        <td><%= show.wikipage_id %></td>
+        <td><%= show.number_of_seasons %></td>
+        <td><%= show.number_of_episodes %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
