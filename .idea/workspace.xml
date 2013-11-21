@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/liveshow_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/liveshow_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/liveshow/shows.html.erb" afterPath="$PROJECT_DIR$/app/views/liveshow/shows.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/liveshow/wikiapi_view.html.erb" afterPath="$PROJECT_DIR$/app/views/liveshow/wikiapi_view.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dbpedia_tests.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385011387714" ignored="false" />
+    <file path="/Dummy.txt" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385016967324" ignored="false" />
     <file path="/liveshow_helper.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384053066227" ignored="false" />
     <file path="/liveshow_controller.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385016480756" ignored="false" />
     <file path="/Index.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384053262687" ignored="false" />
@@ -718,7 +715,11 @@
       <created>1384995370511</created>
       <updated>1384995370511</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Saved both first_aired and last_aired into database">
+      <created>1385016969686</created>
+      <updated>1385016969686</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -745,6 +746,7 @@
     <frame x="7" y="22" width="1346" height="669" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -760,7 +762,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="CSS Styles" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288364" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -808,7 +809,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Found way to convert first aired date" />
+    <option name="LAST_COMMIT_MESSAGE" value="Saved both first_aired and last_aired into database" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -823,6 +824,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Found way to convert first aired date" />
+    <MESSAGE value="Saved both first_aired and last_aired into database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
