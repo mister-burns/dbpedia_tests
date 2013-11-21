@@ -5,16 +5,25 @@
   <tr>
     <th>Show Name</th>
     <th>Wikipedia Page ID</th>
+    <th>First Aired</th>
+    <th>Last Aired</th>
     <th>Number of Seasons</th>
     <th>Number of Episodes</th>
   </tr>
   </thead>
 
   <tbody>
-  <% @shows.order('show_name ASC').each do |show| %>
+  <% @shows.order('last_aired DESC').each do |show| %>
       <tr>
         <td><%= show.show_name %></td>
         <td><%= show.wikipage_id %></td>
+        <td><%= show.first_aired.try(:strftime, "%B, %Y") %></td>
+        <% if show.last_aired == Date.today  %>
+        <% last_aired = "present" %>
+        <% else %>
+        <% last_aired = show.last_aired.try(:strftime, "%B, %Y") %>
+        <% end %>
+        <td><%= last_aired %></td>
         <td><%= show.number_of_seasons %></td>
         <td><%= show.number_of_episodes %></td>
       </tr>

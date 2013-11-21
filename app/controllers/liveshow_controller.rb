@@ -15,7 +15,7 @@ class LiveshowController < ApplicationController
   end
 
   def test_page
-    parse_infobox_string
+    parse_and_save_last_aired_data
   end
 
   def label_view
@@ -201,33 +201,99 @@ class LiveshowController < ApplicationController
   end
 
   private
-  def parse_infobox_string
+  def parse_and_save_season_episode_data
     infobox = Infobox.all
     infobox.each do |infobox|
-      page = infobox.page_id
+      page = infobox.page_id # set page variable to help parse JSON hash in next line
       string = JSON.parse(infobox.infobox)["query"]["pages"]["#{page}"]["revisions"].first["*"]
-      season_match = /(num_seasons\s*=\s*+)([0-9]+)/.match(string)
-      episode_match = /(num_episodes\s*=\s*+)([0-9]+)/.match(string)
+      season_match = /(num_seasons\s*=\s*+)([0-9]+)/.match(string) #look for patterns in the data to start at num_seasons and end at the last date digit of the number
+      episode_match = /(num_episodes\s*=\s*+)([0-9]+)/.match(string) #look for patterns in the data to start at num_episodes and end at the last date digit of the number
+      #parse the matched string to extract on the number:
       @first_aired_match = /(first_aired\s*=\s*+).+?(?=\d+\|)((\d+)\|?(\d+)\|?(\d+))/.match(string)
-      if season_match.nil?
+      if season_match.nil? #run an if statement to weed out nil data, so I can call the match grouping in the else statement
          @season_value = nil
          else
-         @season_value = season_match[2]
+         @season_value = season_match[2] #set season value to second group of the match data
       end
-      if episode_match.nil?
+      if episode_match.nil? #run an if statement to weed out nil data, so I can call the match grouping in the else statement
          @season_value = nil
          else
-         @episode_value = episode_match[2]
+         @episode_value = episode_match[2] #set season value to second group of the match data
       end
-      show = Show.where(:wikipage_id => infobox.page_id).first
+      #Call the show model object where the wikipedia ID matches the page number of the JSON we just parsed.
+      show = Show.where(:wikipage_id => page).first
       show.number_of_seasons = @season_value
       show.number_of_episodes = @episode_value
       show.save
     end
   end
 
+  def parse_and_save_first_aired_data
+    infobox = Infobox.all
+    infobox.each do |infobox|
+      page = infobox.page_id  # set page variable to help parse JSON hash in next line
+      string = JSON.parse(infobox.infobox)["query"]["pages"]["#{page}"]["revisions"].first["*"]
+      string2 = /(first_aired\s*=\s*+)(.+?(?=\s\|))/.match(string) #look for patterns in the data to start at first_aired and end after the date
+      #take the date out of string above, substitute "/" for "|" because you cannot parse the date below without doing this
+      string3 = /(\d+)\|?(\d+)\|?(\d+)/.match(string2.to_s).to_s.gsub("|","/")
+
+      #if statement to first look for dates in the "YYYY" format and add text of "/01/01" so they become Date.parse friendly
+      if ( string3 =~ /^\d{4}\z/ )
+        @string4 = string3.to_s.concat("/01/01")
+        else
+          @string4 = string3 #set variable to original parsed result if it is not in "YYYY" format
+      end
+
+      #This test was necessary to prevent the Date.parse function from throwing an error when...
+      #...the @string4 variable was nil, then sets @first_aired_match to nil if @string4 is nil.
+      begin
+        @first_aired_match = Date.parse(@string4)
+      rescue
+        @first_aired_match = nil
+      end
+
+      #find the appropriate entry in the Show model and save the first aired date:
+      show = Show.where(:wikipage_id => page).first
+      show.first_aired = @first_aired_match
+      show.save
+    end
+  end
+
+  def parse_and_save_last_aired_data
+    infobox = Infobox.all
+    infobox.each do |infobox|
+      page = infobox.page_id  # set page variable to help parse JSON hash in next line
+      string = JSON.parse(infobox.infobox)["query"]["pages"]["#{page}"]["revisions"].first["*"]
+      string2 = /(last_aired\s*=\s*+)(.+?(?=\s\|))/.match(string) #look for patterns in the data to start at first_aired and end after the date
+      #take the date out of string above, substitute "/" for "|" because you cannot parse the date below without doing this
+      string3 = /((\d+)\|?(\d+)\|?(\d+)|present)/.match(string2.to_s).to_s.gsub("|","/")
+
+      #if statement to first look for dates in the "YYYY" format and add text of "/01/01" so they become Date.parse friendly
+      if ( string3 =~ /^\d{4}\z/ )
+        @string4 = string3.to_s.concat("/01/01")
+      elsif ( string3 =~ /present/ )
+        @string4 = Date.today.to_s
+      else
+        @string4 = string3 #set variable to original parsed result if it is not in "YYYY" format
+      end
+
+      #This test was necessary to prevent the Date.parse function from throwing an error when...
+      #...the @string4 variable was nil, then sets @first_aired_match to nil if @string4 is nil.
+      begin
+        @last_aired_match = Date.parse(@string4)
+      rescue
+        @last_aired_match = nil
+      end
+
+      #find the appropriate entry in the Show model and save the first aired date:
+      show = Show.where(:wikipage_id => page).first
+      show.last_aired = @last_aired_match
+      show.save
+    end
+  end
 
   private
+  #This is a subfunction called in the
   def save_show_names_to_show_model
     infobox = Infobox.all
     infobox.each do |infobox|
@@ -241,7 +307,7 @@ class LiveshowController < ApplicationController
   def wikiapi_category_list
     @query = "English-language_television_programming"
     #this is the version to query a list of wikipedia entries by category. Deliver JSON with 500 item limit.
-    #Need to combine key from results to continuation to get full list.
+    #Need to combine key (the cmcontinue code) from results to continuation to get full list.
     $wikicategoryAPI = "https://en.wikipedia.org/w/api.php?action=query&list=categorymembers&format=json&cmtitle=Category:#{@query}&cmlimit=500"
     response = Net::HTTP.get_response(URI.parse($wikicategoryAPI))
     data = response.body
@@ -373,7 +439,7 @@ class LiveshowController < ApplicationController
 
 
   end
-
+  #This function is used to save the batch returns of the category list from the wikipedia API.
   private
   def save_wikicategory_list(hash2)
     hash2.each do |hash2|

@@ -18,23 +18,25 @@
         <td><%= infobox.label %></td>
         <% page = infobox.page_id %>
         <% string = JSON.parse(infobox.infobox)["query"]["pages"]["#{page}"]["revisions"].first["*"] %>
-        <% string2 = /(first_aired\s*=\s*+)(.+?(?=\s\|))/.match(string) %>
+        <% string2 = /(last_aired\s*=\s*+)(.+?(?=\s\|))/.match(string) %>
         <% string3 = string2 %>
-        <% string4 = /(\d+)\|?(\d+)\|?(\d+)/.match(string2.to_s).to_s.gsub("|","/") %>
+        <% string4 = /((\d+)\|?(\d+)\|?(\d+)|present)/.match(string2.to_s).to_s.gsub("|","/") %>
         <% if ( string4 =~ /^\d{4}\z/ ) %>
                 <% @string5 = string4.to_s.concat("/01/01") %>
+            <% elsif ( string4 =~ /present/ ) %>
+                <% @string5 = Date.today.to_s %>
             <% else %>
                 <% @string5 = string4 %>
             <% end %>
 
         <% begin %>
-            <% @first_aired_match = Date.parse(@string5) %>
+            <% @last_aired_match = Date.parse(@string5) %>
         <% rescue %>
-            <% @first_aired_match = nil %>
+            <% @last_aired_match = nil %>
         <% end %>
 
-        <td><%= @first_aired_match %></td>
-        <td><%= string4 %></td>
+        <td><%= @last_aired_match %></td>
+        <td><%= string3 %></td>
         <td><%= string %></td>
       </tr>
   <% end %>
