@@ -18,27 +18,23 @@
         <td><%= infobox.label %></td>
         <% page = infobox.page_id %>
         <% string = JSON.parse(infobox.infobox)["query"]["pages"]["#{page}"]["revisions"].first["*"] %>
-        <% first_aired_match = /(first_aired\s*=\s*+)(.+?(?=\s\|))/.match(string) %>
-        <% @first_aired_match_v2 = /(\d+)\|?(\d+)\|?(\d+)/.match(first_aired_match.to_s).to_s.gsub("|","/") %>
+        <% string2 = /(first_aired\s*=\s*+)(.+?(?=\s\|))/.match(string) %>
+        <% string3 = string2 %>
+        <% string4 = /(\d+)\|?(\d+)\|?(\d+)/.match(string2.to_s).to_s.gsub("|","/") %>
+        <% if ( string4 =~ /^\d{4}\z/ ) %>
+                <% @string5 = string4.to_s.concat("/01/01") %>
+            <% else %>
+                <% @string5 = string4 %>
+            <% end %>
+
         <% begin %>
-            <% @first_aired_match = Date.parse(@first_aired_match_v2) %>
+            <% @first_aired_match = Date.parse(@string5) %>
         <% rescue %>
             <% @first_aired_match = nil %>
         <% end %>
 
-        <%# @first_aired_match = Date.parse(@first_aired_match_v2) %>
-
-        <%# @first_aired_match = Chronic.parse(@first_aired_match_v2, :context => :past, :guess => :false) %>
-
-        <%# if first_aired_match.nil? %>
-           <%# @first_aired_match = nil %>
-           <%#  else %>
-           <%# @first_aired_match = first_aired_match[2] %>
-           <%# end %>
-          <% last_aired_match = /(last_aired\s*=\s*+)(.+?(?=\s\|))/.match(string) %>
-        <% @last_aired_match = last_aired_match %>
         <td><%= @first_aired_match %></td>
-        <td><%= @first_aired_match_v2 %></td>
+        <td><%= string4 %></td>
         <td><%= string %></td>
       </tr>
   <% end %>
