@@ -208,8 +208,6 @@ class LiveshowController < ApplicationController
       string = JSON.parse(infobox.infobox)["query"]["pages"]["#{page}"]["revisions"].first["*"]
       season_match = /(num_seasons\s*=\s*+)([0-9]+)/.match(string) #look for patterns in the data to start at num_seasons and end at the last date digit of the number
       episode_match = /(num_episodes\s*=\s*+)([0-9]+)/.match(string) #look for patterns in the data to start at num_episodes and end at the last date digit of the number
-      #parse the matched string to extract on the number:
-      @first_aired_match = /(first_aired\s*=\s*+).+?(?=\d+\|)((\d+)\|?(\d+)\|?(\d+))/.match(string)
       if season_match.nil? #run an if statement to weed out nil data, so I can call the match grouping in the else statement
          @season_value = nil
          else

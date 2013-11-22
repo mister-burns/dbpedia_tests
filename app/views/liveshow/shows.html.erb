@@ -5,6 +5,8 @@
   <tr>
     <th>Show Name</th>
     <th>Wikipedia Page ID</th>
+    <th>Genre</th>
+    <th>Format</th>
     <th>First Aired</th>
     <th>Last Aired</th>
     <th>Number of Seasons</th>
@@ -17,6 +19,8 @@
       <tr>
         <td><%= show.show_name %></td>
         <td><%= show.wikipage_id %></td>
+        <td><%= show.genre_1 %></td>
+        <td><%= show.format_1 %></td>
         <td><%= show.first_aired.try(:strftime, "%B, %Y") %></td>
         <% if show.last_aired == Date.today  %>
         <% last_aired = "present" %>
