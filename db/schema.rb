@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131122065748) do
+ActiveRecord::Schema.define(version: 20131123064151) do
 
   create_table "infoboxes", force: true do |t|
     t.string   "label"
@@ -68,6 +68,11 @@ ActiveRecord::Schema.define(version: 20131122065748) do
     t.string   "format_3"
     t.string   "format_4"
     t.string   "format_5"
+    t.string   "country_1"
+    t.string   "country_2"
+    t.string   "country_3"
+    t.string   "network_1"
+    t.string   "network_2"
   end
 
   create_table "wikicategoryapis", force: true do |t|

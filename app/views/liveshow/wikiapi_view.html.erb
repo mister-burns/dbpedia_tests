@@ -22,33 +22,26 @@
         <td><%= infobox.label %></td>
         <% page = infobox.page_id %>
         <% string = JSON.parse(infobox.infobox)["query"]["pages"]["#{page}"]["revisions"].first["*"] %>
-        <% string2 = /\bformat\b\s*=(?:\[\[)?(.+?)(?:(\]\]))?(?=\s\|)/.match(string) %>
+        <% string2 = /(?:language\s*=\s*)([\w]+)/m.match(string) %>
 
         <% if string2.nil? %>
            <% @format1 = nil %>
            <% @format2 = nil %>
            <% @format3 = nil %>
-           <% @format4 = nil %>
-           <% @format5 = nil %>
 
         <% else %>
-           <% string3 = string2.to_s.gsub(/<\/?[^>]*>/, "") %>
-           <% string4 = string3.gsub("format","").gsub("Unbulleted list","").gsub("Plainlist","") %>
-           <% string5 = string4.scan(/\w+[\']?[\-]?\s*[\\]?\w+[\']?[\-]?\s?\w+[\']?[\-]?/) %>
+           <% string3 = string2.to_s.gsub(/<\/?[^>]*>/, ",") %>
+           <% string4 = string3.gsub(/language/i,"").gsub(/unbulleted list|plainlist/i,"").gsub(/american/i,"") %>
+           <% string5 = string4.scan(/\w+[\']?[\-]?\s*[\\]?\w+[\']?[\-]?\s?\w+[\']?[\-]?/m) %>
            <% @format1 = string5[0] %>
            <% @format2 = string5[1] %>
            <% @format3 = string5[2] %>
-           <% @format4 = string5[3] %>
-           <% @format5 = string5[4] %>
         <% end %>
-
 
         <td><%= string2 %></td>
         <td><%= @format1 %></td>
         <td><%= @format2 %></td>
         <td><%= @format3 %></td>
-        <td><%= @format4 %></td>
-        <td><%= @format5 %></td>
         <td><%= string %></td>
       </tr>
   <% end %>

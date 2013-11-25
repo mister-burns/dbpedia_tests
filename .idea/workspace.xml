@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/tasks/query_parse_save.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/liveshow_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/liveshow_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/query_parse_save.rake" afterPath="$PROJECT_DIR$/lib/tasks/query_parse_save.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/liveshow/shows.html.erb" afterPath="$PROJECT_DIR$/app/views/liveshow/shows.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/liveshow/wikiapi_view.html.erb" afterPath="$PROJECT_DIR$/app/views/liveshow/wikiapi_view.html.erb" />
@@ -12,17 +11,17 @@
     </list>
     <ignored path="dbpedia_tests.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385103462613" ignored="false" />
+    <file path="/Dummy.txt" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385363257167" ignored="false" />
     <file path="/liveshow_helper.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384053066227" ignored="false" />
     <file path="/liveshow_controller.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385016480756" ignored="false" />
     <file path="/Index.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384053262687" ignored="false" />
-    <file path="/routes.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384838567567" ignored="false" />
-    <file path="/index.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384841898594" ignored="false" />
+    <file path="/routes.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385276596604" ignored="false" />
+    <file path="/index.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385362438710" ignored="false" />
     <file path="/liveshow.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384061237228" ignored="false" />
     <file path="/dbpedialive_view.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384130831281" ignored="false" />
     <file path="/infobox.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384065169755" ignored="false" />
-    <file path="/wikiapi_view.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385103605141" ignored="false" />
-    <file path="/Ruby Console" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385102761223" ignored="false" />
+    <file path="/wikiapi_view.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385190594920" ignored="false" />
+    <file path="/Ruby Console" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385362405521" ignored="false" />
     <file path="/_navigation.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384838600538" ignored="false" />
     <file path="/styles.css" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384112218196" ignored="false" />
     <file path="/label_view.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384131234474" ignored="false" />
@@ -30,13 +29,33 @@
     <file path="/json_view.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384205935654" ignored="false" />
     <file path="/wikicategoryapi.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384411171613" ignored="false" />
     <file path="/20131115070146_add_page_i_dto_infoboxes.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384498955340" ignored="false" />
-    <file path="/show.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384756049634" ignored="false" />
+    <file path="/show.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385340985628" ignored="false" />
     <file path="/20131118062639_create_shows.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384756414239" ignored="false" />
-    <file path="/shows.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385103711996" ignored="false" />
+    <file path="/shows.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385189476998" ignored="false" />
     <file path="/Gemfile" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1384921858486" ignored="false" />
-    <file path="/query_parse_save.rake" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385103342373" ignored="false" />
+    <file path="/query_parse_save.rake" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385189274555" ignored="false" />
     <file path="/20131122062619_add_genres_to_shows.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385101669531" ignored="false" />
     <file path="/20131122062903_add_genres_to_show.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385101945402" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/app/models/show.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385340985954" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/lib/tasks/query_parse_save.rake" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385254747319" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/app/models/wikipedia_api_query.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385255926012" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/lib/tasks/parse_and_save.rake" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385359866172" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/lib/tasks/query_and_save.rake" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385326745255" ignored="false" />
+    <file path="/query_and_save.rake" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385276004710" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/db/schema.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385361596399" ignored="false" />
+    <file path="/parse_and_save.rake" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385359819269" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/config/routes.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385276596604" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/app/views/shows/index.html.erb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385362439658" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/lib/tasks/copy_id_and_name_from_wikipediaapiquery_to_show.rake" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385361912942" ignored="false" />
+    <file path="/copy_id_and_name_from_wikipediaapiquery_to_show.rake" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385361866742" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/db/migrate/20131125005900_add_serial_to_show.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385358474209" ignored="false" />
+    <file path="/20131125005900_add_serial_to_show.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385358474209" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/app/models/show_attribute_type.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385360723560" ignored="false" />
+    <file path="/show_attribute_type.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385360314257" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/app/models/genre.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385361621457" ignored="false" />
+    <file path="/genre.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385361620717" ignored="false" />
+    <file path="/shows_controller.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385362143399" ignored="false" />
+    <file path="$PROJECT_DIR$/../tvratr_v2/app/controllers/shows_controller.rb" changelist="e3c8d1a7-7ce3-46a1-9b2b-3df48941cf17" time="1385362143867" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,23 +75,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/show.rb">
+      <file leaf-file-name="liveshow_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/liveshow_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="70" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
+            <state line="184" column="20" selection-start="4640" selection-end="5533" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="liveshow_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/liveshow_controller.rb">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="252" column="0" selection-start="8261" selection-end="8455" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#515#2203#0" expanded="false" />
-                <element signature="e#2217#3058#0" expanded="false" />
-              </folding>
+            <state line="1" column="2" selection-start="43" selection-end="76" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,7 +96,7 @@
       <file leaf-file-name="query_parse_save.rake" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tasks/query_parse_save.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="0" selection-start="1543" selection-end="1543" vertical-scroll-proportion="0.0">
+            <state line="227" column="37" selection-start="10147" selection-end="10147" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,25 +105,16 @@
       <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="52" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.0">
+            <state line="76" column="56" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shows.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="shows.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/liveshow/shows.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="39" selection-start="217" selection-end="217" vertical-scroll-proportion="0.25465837">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_page.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/liveshow/test_page.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="-0.0">
+            <state line="24" column="28" selection-start="451" selection-end="1061" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +123,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/liveshow/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="160" selection-end="160" vertical-scroll-proportion="-0.9166667">
+            <state line="7" column="23" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -125,16 +132,25 @@
       <file leaf-file-name="label_view.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/liveshow/label_view.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="6" column="60" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wikiapi_view.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="wikiapi_view.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/liveshow/wikiapi_view.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="53" selection-start="1469" selection-end="1469" vertical-scroll-proportion="-1.7763158">
+            <state line="18" column="28" selection-start="362" selection-end="381" vertical-scroll-proportion="0.031982943">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20131123051303_add_countries_to_show.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20131123051303_add_countries_to_show.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -175,9 +191,9 @@
         <option value="$PROJECT_DIR$/app/controllers/liveshow_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131122062619_add_genres_to_shows.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20131122062903_add_genres_to_show.rb" />
-        <option value="$PROJECT_DIR$/app/views/liveshow/wikiapi_view.html.erb" />
         <option value="$PROJECT_DIR$/lib/tasks/query_parse_save.rake" />
         <option value="$PROJECT_DIR$/app/views/liveshow/shows.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/liveshow/wikiapi_view.html.erb" />
       </list>
     </option>
   </component>
@@ -189,7 +205,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
+    <option name="x" value="8" />
     <option name="y" value="22" />
     <option name="width" value="1346" />
     <option name="height" value="669" />
@@ -220,27 +236,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbpedia_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbpedia_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbpedia_tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -281,6 +276,52 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="lib">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dbpedia_tests">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="db">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dbpedia_tests">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="db">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="migrate">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dbpedia_tests">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="config">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -338,6 +379,24 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="models">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="dbpedia_tests">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -359,16 +418,37 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbpedia_tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbpedia_tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbpedia_tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="editor.preferences.tabs" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DaveJones_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tvratr_v1" />
     <property name="FullScreen" value="false" />
-    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="true" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -382,31 +462,8 @@
       <recent name="$PROJECT_DIR$/app/views/layouts" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.parse_and_save_format_data">
-    <configuration default="false" name="Rails console: dbpedia_tests" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
-      <module name="dbpedia_tests" />
-      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
-      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
-      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/bin/rails" />
-      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
-      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="parse_and_save_genre_data" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+  <component name="RunManager" selected="IRB console.Rails console: dbpedia_tests">
+    <configuration default="false" name="parse_and_save_episode_data" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="dbpedia_tests" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
@@ -422,33 +479,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="parse_and_save_genre_data" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="pick_show" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="dbpedia_tests" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="pick_show" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="parse_and_save_episode_data" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -486,7 +517,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="parse_and_save_format_data" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+    <configuration default="false" name="parse_and_save_country_data" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="dbpedia_tests" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
@@ -502,12 +533,63 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="parse_and_save_format_data" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="parse_and_save_country_data" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="parse_and_save_network_data" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="dbpedia_tests" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="parse_and_save_network_data" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Rails console: dbpedia_tests" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="dbpedia_tests" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$PROJECT_DIR$/bin/rails" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="console" />
+      <IRB_RUN_CONFIG NAME="IS_RAILS_CONSOLE" VALUE="true" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
@@ -772,7 +854,9 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
       <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
@@ -781,19 +865,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: dbpedia_tests" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: dbpedia_tests" />
-      <item index="4" class="java.lang.String" itemvalue="IRB console.Rails console: dbpedia_tests" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.parse_and_save_genre_data" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.pick_show" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.parse_and_save_format_data" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.parse_and_save_episode_data" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.parse_and_save_country_data" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.parse_and_save_network_data" />
+      <item index="8" class="java.lang.String" itemvalue="IRB console.Rails console: dbpedia_tests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.parse_and_save_format_data" />
-        <item index="1" class="java.lang.String" itemvalue="Rake.db:migrate" />
-        <item index="2" class="java.lang.String" itemvalue="IRB console.Rails console: dbpedia_tests" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.parse_and_save_genre_data" />
-        <item index="4" class="java.lang.String" itemvalue="Rake.pick_show" />
+        <item index="0" class="java.lang.String" itemvalue="IRB console.Rails console: dbpedia_tests" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.parse_and_save_network_data" />
+        <item index="2" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="3" class="java.lang.String" itemvalue="Rake.parse_and_save_episode_data" />
+        <item index="4" class="java.lang.String" itemvalue="Rake.parse_and_save_country_data" />
       </list>
     </recent_temporary>
   </component>
@@ -853,18 +937,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="22" width="1346" height="669" extended-state="0" />
-    <editor active="true" />
+    <frame x="8" y="22" width="1346" height="669" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288364" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24961479" sideWeight="0.49915683" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33281973" sideWeight="0.6728499" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27118644" sideWeight="0.6728499" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39966273" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30046225" sideWeight="0.12816189" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32715008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -942,77 +1026,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/wikicategoryapi.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="2" selection-start="45" selection-end="81" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_navigation.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="58" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="58" selection-start="235" selection-end="235" vertical-scroll-proportion="0.41925466">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/liveshow/json_view.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/liveshow/label_view.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/liveshow/test_page.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/liveshow/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="160" selection-end="160" vertical-scroll-proportion="-0.9166667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/show.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="70" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20131122062903_add_genres_to_show.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="21" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/liveshow_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="252" column="0" selection-start="8261" selection-end="8455" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#515#2203#0" expanded="false" />
-            <element signature="e#2217#3058#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,30 +1050,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131123064151_add_networks_to_show.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="52" selection-start="1459" selection-end="1459" vertical-scroll-proportion="0.0">
+        <state line="1" column="12" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/liveshow/wikiapi_view.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/show.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="53" selection-start="1469" selection-end="1469" vertical-scroll-proportion="-1.7763158">
-          <folding />
-        </state>
+        <state line="1" column="2" selection-start="34" selection-end="74" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/query_parse_save.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1543" selection-end="1543" vertical-scroll-proportion="0.0">
+        <state line="227" column="37" selection-start="10147" selection-end="10147" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/liveshow/label_view.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="60" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/liveshow/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="23" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="2" selection-start="43" selection-end="76" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/liveshow/shows.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="39" selection-start="217" selection-end="217" vertical-scroll-proportion="0.25465837">
+        <state line="24" column="28" selection-start="451" selection-end="1061" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="56" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/liveshow_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="184" column="20" selection-start="4640" selection-end="5533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131115070146_add_page_i_dto_infoboxes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="70" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20131123051303_add_countries_to_show.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/liveshow/wikiapi_view.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="362" selection-end="381" vertical-scroll-proportion="0.031982943">
           <folding />
         </state>
       </provider>
